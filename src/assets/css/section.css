@@ -1,0 +1,103 @@
+#main {
+  flex: 1;
+  overflow: auto;
+}
+#main .right,
+#main .left {
+  display: flex;
+  margin: 0.21rem 0.15rem;
+}
+#main .right .headImg,
+#main .left .headImg {
+  width: 0.64rem;
+}
+#main .right .con,
+#main .left .con,
+#main .right .left-word,
+#main .left .left-word {
+  max-width: 4rem;
+  min-width: 0.9rem;
+  background: #fff;
+  padding: 0.14rem;
+  border-radius: 0.05rem;
+}
+#main .right .con .auto-voice,
+#main .left .con .auto-voice {
+  width: 0.18rem;
+  height: 0.25rem;
+  padding-top: 0.1rem;
+  line-height: 0.25rem;
+  display: table-cell;
+  vertical-align: middle;
+}
+#main .right .con .auto-voice img,
+#main .left .con .auto-voice img {
+  max-width: 0.18rem;
+  height: auto;
+  display: none;
+}
+#main .right .con .auto-voice .imgActive,
+#main .left .con .auto-voice .imgActive {
+  display: block;
+}
+#main .right .red p,
+#main .left .red p {
+  width: 0.15rem;
+  height: 0.15rem;
+  background: #f00;
+  border-radius: 50%;
+  margin-bottom: 0.15rem;
+}
+#main .right {
+  flex-direction: row-reverse;
+}
+#main .right .con,
+#main .right .left-word {
+  background: #a0e75a;
+}
+#main .right .con .auto-voice {
+  float: right;
+}
+#main .right .con .auto-voice img:first-child {
+  margin-top: -0.03rem;
+  transform: scale(0.8) rotate(180deg);
+}
+#main .right .con .auto-voice img:last-child {
+  margin-top: -0.03rem;
+  transform: scale(0.5) rotate(180deg);
+}
+#main .right .con .auto-voice img:nth-child(2) {
+  margin-left: 0.05rem;
+  transform: scale(0.5) rotate(180deg);
+}
+#main .images .smallImg {
+  max-width: 3.26rem;
+  max-height: 2.68rem;
+  margin-bottom: 0.2rem;
+}
+#main .right .headImg {
+  margin-left: 0.15rem;
+}
+#main .imgMore {
+  display: flex;
+  flex-direction: column;
+}
+#main .left .headImg {
+  margin-right: 0.15rem;
+}
+#main .left .auto-voice img:first-child {
+  transform: scale(0.8);
+}
+#main .left .auto-voice img:nth-child(2) {
+  margin-top: 0.04rem;
+  transform: scale(0.5);
+}
+#main .left .auto-voice img:nth-child(3) {
+  transform: scale(0.5);
+}
+#main .red p {
+  margin-left: 0.05rem;
+}
+#main .red .shows {
+  display: none;
+}

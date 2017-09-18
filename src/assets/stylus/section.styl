@@ -1,0 +1,77 @@
+#main
+  flex 1
+  overflow auto
+  .right,.left
+    display flex
+    margin 0.21rem 0.15rem
+    .headImg
+      width 0.64rem
+    .con,.left-word
+      max-width 4rem
+      min-width 0.9rem
+      background #ffffff
+      padding 0.14rem
+      border-radius 0.05rem
+    .con
+      .auto-voice
+        width 0.18rem
+        height 0.25rem
+      //display block
+        padding-top 0.1rem
+      //background red
+        line-height 0.25rem
+        display table-cell
+        vertical-align middle
+
+        img
+          max-width 0.18rem
+          height auto
+          display none
+        .imgActive
+          display block
+    .red
+      p
+        width 0.15rem
+        height 0.15rem
+        background #f00
+        border-radius 50%
+        margin-bottom 0.15rem
+  .right
+    flex-direction row-reverse
+    .con,.left-word
+      background #a0e75a
+    .con .auto-voice
+      float right
+      img:first-child
+        margin-top -0.03rem
+        transform  scale(0.8) rotate(180deg)
+      img:last-child
+        margin-top -0.03rem
+        transform scale(0.5) rotate(180deg)
+      img:nth-child(2)
+        margin-left 0.05rem
+        transform scale(0.5) rotate(180deg)
+  .images .smallImg
+    max-width 3.26rem
+    max-height 2.68rem
+    margin-bottom 0.2rem
+  .right
+    .headImg
+      margin-left 0.15rem
+  .imgMore
+    display: flex;
+    flex-direction: column;
+  .left .headImg
+    margin-right 0.15rem
+  .left .auto-voice
+    img:first-child
+      transform  scale(0.8)
+    img:nth-child(2)
+      margin-top 0.04rem
+      transform scale(0.5)
+    img:nth-child(3)
+      transform scale(0.5)
+  .red p
+    margin-left 0.05rem
+  .red .shows
+    display none;
