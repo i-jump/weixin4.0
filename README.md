@@ -18,7 +18,7 @@ npm run build
 npm run build --report
 ```
 # weixin项目
-## 项目需求（UI图已经拿到）
+## 项目需求
 
   * 模块划分
     1. 头部（导航区）
@@ -38,7 +38,7 @@ npm run build --report
 
       * 语音
         最长65%，最短34%(4H)
-    
+
       * 图片
           最多9张,每发送一张，图片的显示最宽51%，高度自适应。等比例缩放
 
@@ -87,7 +87,7 @@ npm run build --report
 ## 交付
   * 自己测试（各种Android· iphone 机型测试）
   * 与UI比对，误差不超过3px
-  * 发邮件，抄送给开发，老大
+  * 发邮件，抄送给开发
 
 
 ## 联调
